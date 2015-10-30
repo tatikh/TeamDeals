@@ -1,0 +1,618 @@
+
+
+body{
+	margin: 0;
+	font: 14px/14px TrebuchetMS, verdana, helvetica;
+	background: #303c40 url("../images/bg-img.png") center top no-repeat;
+}
+
+#tigers{
+	background: #1a1a1a url("../images/tigers_bg_body.png") center top no-repeat;  
+}
+
+/*start header*/
+.header{
+	height: 111px;
+	max-width: 1680px;
+	margin: 0 auto;
+	background: url("../images/bg_header.png") repeat-x;
+}
+
+#tigers .header{
+	height: 110px;
+	background: url("../images/tigers_bg_header.png") repeat-x;
+}
+
+.header_menu{
+	width: 1020px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-right: 60px;
+	padding-left: 6px;
+	position: relative;
+}
+
+#tigers .header_menu span{
+	color: #fff;
+	font: 12px/18px TrebuchetMS, verdana, helvetica;
+	display: inline-block;
+	margin-left: 233px;
+	margin-top: 5px;
+}
+
+.logo{
+	float: left;
+	padding-top: 6px;
+	margin-left: 50px;
+}
+
+#tigers .logo{
+	position: absolute;
+	left: 60px;
+	top: 2px;
+	padding-top: 0;
+	margin-left: 0;
+}
+
+.header_menu ul.topmenu{
+	padding: 5px 5px 0 0;
+	margin: 0;
+	float: right;
+}
+
+ul.topmenu li{
+	margin: 0;
+	padding: 0 8px;
+	list-style: none;
+	float: right;
+}
+
+ul.topmenul li:last-of-type{
+	background: url("../images/line_topmenu.png") no-repeat;
+
+}
+
+
+ul.topmenu a{
+	text-decoration: none;
+	color: #fff;
+}
+
+ul.topmenu a:hover{text-decoration: underline;}
+
+ul.main_menu{
+	margin: 10px 0 0 65px;
+	float: left;
+	padding: 0;
+}
+
+#tigers ul.main_menu{
+	margin: 10px 0 0 500px;
+	float: left;
+	padding: 0;
+}
+
+ul.main_menu li{
+	list-style: none;
+	float: left;
+	margin-bottom: 30px;
+    margin-top: 35px;
+    padding: 0;
+}
+
+#tigers ul.main_menu li{
+	margin-top: 33px;
+}
+
+
+ul.main_menu a{
+	text-transform: uppercase;
+	color: #fff;
+	padding: 33px 11px 29px 10px;
+	text-decoration: none;
+}
+
+ul.main_menu li a.first{background: url("../images/menu_header_hover.png") repeat-x;}
+
+#tigers ul.main_menu li a.first{background: url("../images/tigers_menu_header_hover.png") repeat-y;}
+
+ul.main_menu li a:hover{background: url("../images/menu_header_hover.png") repeat-x;}
+
+#tigers ul.main_menu li a:hover{background: url("../images/tigers_menu_header_hover.png") repeat-y;}
+
+.main{
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+.content{
+	background: url("../images/bg-content.png") no-repeat;
+	width: 684px;
+	overflow: hidden;
+	padding-top: 30px;
+	padding-left: 80px;
+	margin-top: 32px;
+	float: left;
+}
+
+#tigers .content{
+	background: url("../images/tigers_bg-content.png") no-repeat;
+	width: 687px;
+}
+.content h2{
+	margin: 0;
+	padding-left: 29px;
+	font: 30px/36px TrebuchetMS, verdana, helvetica;
+	color: #000;
+}
+
+.left_column{
+	float: left;
+	width: 220px;
+}
+
+
+.left_column strong.price{
+	display: inline-block;
+	font: 36px/14px TrebuchetMS, verdana, helvetica;
+	padding-top: 49px;
+	padding-left: 30px;
+	color: #fff;
+}
+
+.button{
+	background: url("../images/button-price.png") no-repeat;
+    float: left;
+    height: 50px;
+    padding-top: 14px;
+    margin-top: 31px;
+    width: 200px;
+}	
+
+#tigers .button{
+	background: url("../images/tigers_button-price.png") no-repeat;
+	height: 49px;
+}
+
+.button a{
+	text-decoration: none;
+	padding-left: 25px;
+	color: #fff;
+}
+
+.button a:hover{text-decoration: underline;}
+
+.button a strong{
+	text-transform: uppercase;
+	font: 18px/18px TrebuchetMS, verdana, helvetica;
+	color: #fff;
+}	
+
+.table{
+	float: left;
+	background: url("../images/table_content.png") no-repeat;
+	width: 200px;
+	height: 139px;
+	padding-left: 10px;
+}
+
+#tigers .table{
+	background: url("../images/tigers_table_content.png") no-repeat;
+	width: 200px;
+	height: 140px;
+}
+
+
+.table ul{
+	margin: 0;
+	padding: 23px 12px 9px 11px;
+	list-style: none;
+	float: left;
+}
+
+.table ul li{
+	padding-bottom: 8px;
+	font: 11px/11px TrebuchetMS,verdana,helvetica;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.table li.white{
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.table span{
+	display: inline-block;
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 100px;
+	text-transform: uppercase;
+	font: 11px/11px TrebuchetMS,verdana,helvetica;
+	color: #000;
+}
+
+ul.table2{
+	margin: 0;
+	padding: 10px 5px 9px 5px;
+	list-style: none;
+	float: left;
+}
+
+ul.table2_1{
+	margin: 0;
+	padding: 10px 5px 9px 60px;
+	list-style: none;
+	float: left;
+}
+
+ul.table2 li{
+	text-transform: lowercase;
+}
+
+ul.table2_1 li{
+	text-transform: lowercase;
+}
+
+.check_deals ul{
+	float: left;
+	margin-top: 13px;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.check_deals ul li{
+	color: #000;
+	font: 12px/12px TrebuchetMS, verdana, helvetica;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 10px 5px 10px 10px;
+	background: url("../images/deals-line.png") no-repeat;
+	float: left;
+	list-style: none;
+}
+
+.check_deals ul li a{
+	color: #000;
+	text-decoration: none;
+}
+
+.check_deals ul li a:hover{
+	text-decoration: underline;
+}
+
+.check_deals ul li.check{
+	background: url("../images/deals.png") no-repeat;
+	list-style: none;
+	padding: 10px 10px 10px 40px;
+}
+
+.left_column h3{
+	text-transform: uppercase;
+	font: 12px/12px TrebuchetMS, verdana, helvetica;
+	color: #006699;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 8px;
+}
+
+#tigers .left_column h3{color: #303c40}
+
+.left_column img{margin-bottom: 17px;}
+
+.maps{margin-bottom: 20px;}
+
+.adress span{
+	display: inline-block;
+	line-height: 18px;
+	color: #000;
+}
+
+.adress{padding-bottom: 85px;}
+
+.right_column{
+	float: left;
+	width: 464px;
+}
+
+.velo{
+	margin-top: 20px;
+	margin-right: 22px;
+	margin-bottom: 50px;
+	padding: 6px;
+	border: 1px solid #cccccc;
+
+}
+
+.velo_img{border: 1px solid #cccccc;}
+
+.box{margin-right: 30px}
+
+.box h3{
+	margin: 0;
+	padding: 0;
+	font: 12px/12px TrebuchetMS, verdana, helvetica;
+	text-transform: uppercase;
+	color: #006699;
+	margin-bottom: 8px;
+}
+
+#tigers .box h3{color: #303c40}
+
+.box hr{margin-bottom: 19px;}
+
+.box p{
+	margin: 0;
+	padding: 0 5px 20px 0;
+	color: #000;
+	font: 14px/18px TrebuchetMS, verdana, helvetica;
+}
+
+.box ul{
+	padding: 0;
+	margin-top: 0;
+	padding-left: 20px;
+}
+
+.box ul li{
+color: #f6911e;
+}
+
+.box ul li span{
+color: #000;
+}
+
+.sidebar{
+	background: url("../images/bg-sidebar.png") repeat-y;
+	border-radius: 0 9px 9px 0;
+	padding: 30px 0 30px 0;
+	float: left;
+	margin-top: 45px;
+	width: 279px;
+	margin-left: -20px;
+}
+
+#tigers .sidebar{
+	background: url("../images/tigers_bg-sidebar.png") repeat-y;
+	width: 280px;
+	padding-top: 20px;
+	padding-bottom: 16px;
+	margin-top: 40px;
+}
+
+.sidebar h2{
+	font: 24px/24px TrebuchetMS, verdana, helvetica bold;
+	color: #fff;
+	padding-left: 20px;
+	margin-top: 0;
+}
+
+.sidebar{overflow: hidden;}
+
+.box_sidebar{
+	float: left;
+	margin-bottom: 19px;
+	padding-left: 20px;
+}
+
+#tigers .box_sidebar_last{
+	float: left;
+	margin-bottom: 5px;
+	padding-left: 20px;
+}
+
+.box_sidebar img{
+	float: left;
+	margin-right: 9px;
+	border: 1px solid #cccccc;
+	margin-left: 20px;
+}
+
+#tigers .box_sidebar_last img{
+    border: 1px solid #cccccc;
+    float: left;
+    margin-left: 20px;
+    margin-right: 9px;
+}
+
+.box_sidebar p{
+	margin: 0;
+	padding-left: 9px;
+	font: 12px/18px TrebuchetMS, verdana, helvetica;
+	color: #fff;
+}
+
+.box_sidebar span{color: #ff9900;}
+
+#tigers .box_sidebar_last p{
+	margin: 0;
+	padding-left: 9px;
+	font: 12px/18px TrebuchetMS, verdana, helvetica;
+	color: #fff;
+}
+
+#tigers .box_sidebar_last span{color: #ff9900;}
+
+#tigers .tigers_member{
+	background: url("../images/tigers_membership.png") no-repeat;
+	width: 225px;
+	height: 118px;
+	float: right;
+	margin-right: 19px;
+	margin-bottom: 25px;
+}
+
+#tigers .tigers_member a{
+	color: #fff;
+	font: 11px/14px arial, TrebuchetMS, verdana bold;
+	background: url("../images/tigers_button_member.png") no-repeat;
+	width: 131px;
+	height: 22px;
+	margin-top: 88px;
+	margin-left: 88px;
+	display: inline-block;
+	padding-left: 9px;
+    padding-top: 4px;
+    text-decoration: none;
+}
+
+#tigers .tigers_member a:hover{text-decoration: underline;}
+
+.view_all{
+	width: 71px;
+	height: 22px;
+	background: url("../images/view_all.png") no-repeat;
+	float: right;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 4px;
+	margin-right: 9px;
+	margin-bottom: 28px;
+}
+
+#tigers .view_all{
+	margin-bottom: 19px;
+	background: url("../images/tigers_view_all.png") no-repeat;
+}
+
+.view_all a{
+	color: #fff;
+	text-decoration: none;
+	font: 11px/14px TrebuchetMS, verdana, helvetica bold;
+}
+
+.view_all a:hover{text-decoration: underline;}
+
+#tigers .box2_sidebar{
+	float: right;
+	padding-left: 40px;
+	padding-right: 20px;
+	margin-bottom: 15px;
+}
+
+#tigers .box2_sidebar h2{
+	font: 20px/18px TrebuchetMS, verdana, helvetica bold;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 18px;
+}
+
+#tigers .box2_sidebar p{
+	margin: 0;
+	padding: 0;
+}
+
+#tigers .text1{
+	font: 14px/18px TrebuchetMS, verdana, helvetica bold;
+	color: #fff;
+}
+
+#tigers .text2{
+	font: 14px/20px TrebuchetMS, verdana, helvetica;
+	color: #fff;
+}
+
+#tigers .text3{
+	font: 13px/18px TrebuchetMS, verdana, helvetica;
+	color: #fff;
+}
+
+#tigers .box2_sidebar a{
+	font: 13px/18px TrebuchetMS, verdana, helvetica;
+	color: #fa9601;
+}
+
+/*start footer сылки в ХОВЕРНОМ сделать!!!*/
+.footer{
+	height: 224px;
+	background-color: #07161f;
+	margin-top: -10px;
+	padding-bottom: 15px;
+}
+
+#tigers .footer{
+	background-color: #000;
+}
+
+.footer_main{
+	margin: 0 auto;
+    overflow: hidden;
+    padding: 0 60px 0 70px;
+    width: 950px;
+    position: relative;
+}
+
+.spisok{
+	color: #fff;
+	font: 11px/24px TrebuchetMS, verdana, helvetica;
+	float: left;
+	padding-right: 10px;
+}
+
+.spisok h4{
+	text-transform: uppercase;
+	font: 11px/24px TrebuchetMS, verdana, helvetica bold;
+	padding-left: 30px;
+	margin: 40px 0 15px 0;
+}
+
+.spisok ul li{
+	color: #f6911e;
+}
+
+.spisok ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.spisok ul li a:hover{text-decoration: underline;}
+
+.seti{
+	float: left;
+ 	margin: 170px 0 0 30px;
+ }
+
+.seti a img {padding-right: 5px;}
+
+.bird{
+	background: url("../images/text_bird.png") no-repeat;
+	float: right;
+	width: 316px;
+	height: 121px;
+	margin-top: 48px;
+}
+
+.bird p{
+	font: 14px/18px TrebuchetMS, verdana, helvetica;
+	color: #fff;
+	margin: 0;
+	padding: 15px 20px 0 13px;
+}
+
+.bird a{
+	font: 12px/18px TrebuchetMS, verdana, helvetica;
+	color: #ff9900;
+}
+
+.bird span{
+	color: #9b9b9b;
+	font: 11px/18px TrebuchetMS, verdana, helvetica;
+	padding-left: 13px;	
+}
+
+.footer_main img{
+	float: right;
+	margin-top: 15px;
+}
+
+.logo_footer{
+	position: absolute;
+	right: 110px;
+	bottom: 12px;
+}
+/*end footer*/
+
